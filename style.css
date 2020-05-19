@@ -25,7 +25,6 @@ h1{
     height: 200px;
     width: 200px;
     border-radius: 8px;
-    background-color: blue;
 }
 
 .colors{
@@ -34,10 +33,22 @@ h1{
     width: 300px;
 }
 
-output, label{
+label{
     width: 77px;
     display: inline-block;
     vertical-align: middle;
+}
+
+output{
+    background-color: rgb(224, 221, 221);
+    color: gray;
+    padding: 4px;
+    width: 34px;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
 input#red{

@@ -1,23 +1,13 @@
-window.addEventListener("load", start);
-
-red.value=0;
-green.value=0;
-blue.value=0;
-
-red.addEventListener("input", render());
-
-function start(){
-    render();
-}
+window.addEventListener("load", render());
 
 function render(){
-    var red = document.getElementById("red").value;
-    var green = document.getElementById("green").value;
-    var blue = document.getElementById("blue").value;
+    let red = document.getElementById("red").value;
+    let green = document.getElementById("green").value;
+    let blue = document.getElementById("blue").value;
     
-    var outputR = document.querySelector('#outputR');
-    var outputG = document.querySelector('#outputG');
-    var outputB = document.querySelector('#outputB');
+    let outputR = document.querySelector('#outputR');
+    let outputG = document.querySelector('#outputG');
+    let outputB = document.querySelector('#outputB');
 
     outputR.textContent = red;
     outputG.textContent = green;
